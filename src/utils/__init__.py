@@ -1,5 +1,6 @@
-# HFT Live Dashboard - Main Package
-# This file makes src a Python package
+# HFT Live Dashboard - Utils Package
+# Contains helper functions
 
-__version__ = "1.0.0"
-__author__ = "HFT Dashboard Team"
+from .helpers import Helpers
+
+__all__ = ["Helpers"]
